@@ -1,0 +1,193 @@
+body{
+  background: rgba(100,181,201,1);
+background: -moz-linear-gradient(left, rgba(100,181,201,1) 0%, rgba(118,187,204,1) 50%, rgba(62,146,169,1) 99%, rgba(61,145,168,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(100,181,201,1)), color-stop(50%, rgba(118,187,204,1)), color-stop(99%, rgba(62,146,169,1)), color-stop(100%, rgba(61,145,168,1)));
+background: -webkit-linear-gradient(left, rgba(100,181,201,1) 0%, rgba(118,187,204,1) 50%, rgba(62,146,169,1) 99%, rgba(61,145,168,1) 100%);
+background: -o-linear-gradient(left, rgba(100,181,201,1) 0%, rgba(118,187,204,1) 50%, rgba(62,146,169,1) 99%, rgba(61,145,168,1) 100%);
+background: -ms-linear-gradient(left, rgba(100,181,201,1) 0%, rgba(118,187,204,1) 50%, rgba(62,146,169,1) 99%, rgba(61,145,168,1) 100%);
+  margin:0;
+}
+
+#app{
+  
+    border: solid 5px white;
+    text-align: center;
+    width: 200px;
+    padding: 40px;
+    
+   
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 50px 30px #488a9c;
+}
+.app-weather {
+    margin-top: 50px;
+}
+.weatherIcon img{
+  width:100px;
+  height:100px;
+}
+.temp{
+  font-size:35px;
+  color:white;
+  cursor:pointer;
+}
+
+
+#info{
+  text-align: center;
+  color:#1d424c
+}
+.city {
+       margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 25px  
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.p-cell{
+  padding-bottom:25px;
+}
+.sun.rise {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #ffbe00;
+    border-radius: 50%;
+    box-shadow: 1px 1px 80px 20px orange;
+    
+}
+.sun.set {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    background: #ffbe00;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    
+    border-bottom: solid 1px white;
+    box-shadow: -10px -20px 80px 20px #ccb243;
+}
+.icon {
+    width: 150px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(103, 58, 183, 0.06);
+    border-radius: 25%;
+    box-shadow: 1px 1px 50px 10px #4a8c9f;
+}
+.icon .sun {
+    margin-bottom: 10px;
+}
+.humidity {
+    display: inline-block;
+    width: 50px;
+   
+    border-radius: 50% 50% 50% 0;
+    transform: rotateZ(140deg);
+    height: 50px;
+    background: #b4dcef;
+    border-top: solid 12px rgba(255, 255, 255, 0.5);
+}
+.humidity-1 {
+   
+    top: 30;
+    left: 20;
+    position: absolute;
+    /* display: inline-block; */
+    width: 20px;
+    border-radius: 50% 50% 50% 0%;
+    /* transform: rotateZ(140deg); */
+    height: 20px;
+    background: #b4dcef;
+    border-top: solid 5px rgba(255, 255, 255, 0.5);
+
+}
+.wind {
+   display: inline-block;
+    width: 50px;
+    height: 50px;
+   
+}
+
+.wind-1 {
+  position: relative;
+  margin:5px 0px;
+    width: 30px;
+    height: 5px;
+    background: white;
+}
+.wind-2 {
+  position:relative;
+    width: 50px;
+    height: 5px;
+    background: white;
+}
+
+.windc3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    /* margin-left: 5px; */
+    border: solid 5px white;
+  }
+.windc1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top:-15px;
+    /* margin-left: 5px; */
+    border: solid 5px white;
+  }
+  .windc2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top:-15px;
+    
+    /* margin-left: 5px; */
+    border: solid 5px white;
+  }
+  .windc1::after {
+    width: 10px;
+    height: 5px;
+    background: #66a8c2;
+    content: " ";
+    position: absolute;
+    left: -5px;
+    top: 5px;
+}
+.windc2::after {
+    width: 10px;
+    height: 5px;
+    background: #66a8c2;
+    content: " ";
+    position: absolute;
+    left: -5px;
+    top: 5px;
+}
+.windc3::after {
+    width: 10px;
+    height: 5px;
+    background: #66a8c2;
+    content: " ";
+    position: absolute;
+    left: -5px;
+    
+}
+
+.row:last-child {
+    margin-top: 100px;
+    bottom: 0;
+}
